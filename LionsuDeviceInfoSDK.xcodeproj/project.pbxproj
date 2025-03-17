@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBC985A2B1830E90083D00A /* LionuDeviceInfoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBC98492B1830E90083D00A /* LionuDeviceInfoSDK.m */; };
+		BDBC985B2B1830E90083D00A /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBC98512B1830E90083D00A /* KeychainItemWrapper.m */; };
+		BDBC985C2B1830E90083D00A /* DeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBC98532B1830E90083D00A /* DeviceTool.m */; };
+		BDBC985D2B1830E90083D00A /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBC98562B1830E90083D00A /* NetworkManager.m */; };
+		BDBC985E2B1830E90083D00A /* ConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBC98592B1830E90083D00A /* ConfigModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A1690B025E743EC00245E7A /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD8004AC2D88214200CC4703 /* libLionsuDeviceInfoSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLionsuDeviceInfoSDK.a; path = "/Users/lionsu/Documents/star_sea/Lionu-iOS-SDK-Src/build/Debug-iphoneos/libLionsuDeviceInfoSDK.a"; sourceTree = "<absolute>"; };
+		BDBC98492B1830E90083D00A /* LionuDeviceInfoSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionuDeviceInfoSDK.m; sourceTree = "<group>"; };
+		BDBC984A2B1830E90083D00A /* LionuDeviceInfo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LionuDeviceInfo.bundle; sourceTree = "<group>"; };
+		BDBC984B2B1830E90083D00A /* LionuDeviceInfoSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionuDeviceInfoSDK.h; sourceTree = "<group>"; };
+		BDBC984F2B1830E90083D00A /* DeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTool.h; sourceTree = "<group>"; };
+		BDBC98512B1830E90083D00A /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		BDBC98522B1830E90083D00A /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		BDBC98532B1830E90083D00A /* DeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTool.m; sourceTree = "<group>"; };
+		BDBC98552B1830E90083D00A /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		BDBC98562B1830E90083D00A /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		BDBC98582B1830E90083D00A /* ConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigModel.h; sourceTree = "<group>"; };
+		BDBC98592B1830E90083D00A /* ConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1690AF25E743EC00245E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1690A925E743EC00245E7A = {
+			isa = PBXGroup;
+			children = (
+				BDBC98482B1830E90083D00A /* DeviceInfoSDK */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBC98482B1830E90083D00A /* DeviceInfoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC98492B1830E90083D00A /* LionuDeviceInfoSDK.m */,
+				BDBC984A2B1830E90083D00A /* LionuDeviceInfo.bundle */,
+				BDBC984B2B1830E90083D00A /* LionuDeviceInfoSDK.h */,
+				BDBC984C2B1830E90083D00A /* DeviceInfoSDK */,
+			);
+			path = DeviceInfoSDK;
+			sourceTree = "<group>";
+		};
+		BDBC984C2B1830E90083D00A /* DeviceInfoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC984D2B1830E90083D00A /* Tools */,
+				BDBC98572B1830E90083D00A /* Model */,
+			);
+			path = DeviceInfoSDK;
+			sourceTree = "<group>";
+		};
+		BDBC984D2B1830E90083D00A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC984E2B1830E90083D00A /* DeviceTool */,
+				BDBC98542B1830E90083D00A /* NetworkManager */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BDBC984E2B1830E90083D00A /* DeviceTool */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC984F2B1830E90083D00A /* DeviceTool.h */,
+				BDBC98502B1830E90083D00A /* KeychainItemWrapper */,
+				BDBC98532B1830E90083D00A /* DeviceTool.m */,
+			);
+			path = DeviceTool;
+			sourceTree = "<group>";
+		};
+		BDBC98502B1830E90083D00A /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC98512B1830E90083D00A /* KeychainItemWrapper.m */,
+				BDBC98522B1830E90083D00A /* KeychainItemWrapper.h */,
+			);
+			path = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		BDBC98542B1830E90083D00A /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC98552B1830E90083D00A /* NetworkManager.h */,
+				BDBC98562B1830E90083D00A /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		BDBC98572B1830E90083D00A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC98582B1830E90083D00A /* ConfigModel.h */,
+				BDBC98592B1830E90083D00A /* ConfigModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1690B125E743EC00245E7A /* LionsuDeviceInfoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1690BB25E743EC00245E7A /* Build configuration list for PBXNativeTarget "LionsuDeviceInfoSDK" */;
+			buildPhases = (
+				8A1690AE25E743EC00245E7A /* Sources */,
+				8A1690AF25E743EC00245E7A /* Frameworks */,
+				8A1690B025E743EC00245E7A /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionsuDeviceInfoSDK;
+			productName = HDPDeviceInfoSDK;
+			productReference = BD8004AC2D88214200CC4703 /* libLionsuDeviceInfoSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1690AA25E743EC00245E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8A1690B125E743EC00245E7A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8A1690AD25E743EC00245E7A /* Build configuration list for PBXProject "LionsuDeviceInfoSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1690A925E743EC00245E7A;
+			productRefGroup = 8A1690A925E743EC00245E7A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1690B125E743EC00245E7A /* LionsuDeviceInfoSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1690AE25E743EC00245E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBC985D2B1830E90083D00A /* NetworkManager.m in Sources */,
+				BDBC985C2B1830E90083D00A /* DeviceTool.m in Sources */,
+				BDBC985E2B1830E90083D00A /* ConfigModel.m in Sources */,
+				BDBC985B2B1830E90083D00A /* KeychainItemWrapper.m in Sources */,
+				BDBC985A2B1830E90083D00A /* LionuDeviceInfoSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A1690B925E743EC00245E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Wno-unused-variable",
+					"-Wno-deprecated-declarations",
+					"-Wno-implicit-retain-self",
+				);
+			};
+			name = Debug;
+		};
+		8A1690BA25E743EC00245E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wno-unused-variable",
+					"-Wno-deprecated-declarations",
+					"-Wno-implicit-retain-self",
+				);
+			};
+			name = Release;
+		};
+		8A1690BC25E743EC00245E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8XM5X8U6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-unused-variable";
+			};
+			name = Debug;
+		};
+		8A1690BD25E743EC00245E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF8XM5X8U6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-unused-variable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1690AD25E743EC00245E7A /* Build configuration list for PBXProject "LionsuDeviceInfoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1690B925E743EC00245E7A /* Debug */,
+				8A1690BA25E743EC00245E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1690BB25E743EC00245E7A /* Build configuration list for PBXNativeTarget "LionsuDeviceInfoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1690BC25E743EC00245E7A /* Debug */,
+				8A1690BD25E743EC00245E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1690AA25E743EC00245E7A /* Project object */;
+}
