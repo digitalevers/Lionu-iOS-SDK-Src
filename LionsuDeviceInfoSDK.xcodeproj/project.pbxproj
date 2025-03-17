@@ -28,7 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BD8004AC2D88214200CC4703 /* libLionsuDeviceInfoSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLionsuDeviceInfoSDK.a; path = "/Users/lionsu/Documents/star_sea/Lionu-iOS-SDK-Src/build/Debug-iphoneos/libLionsuDeviceInfoSDK.a"; sourceTree = "<absolute>"; };
+		BD294D922D88E7940010239B /* libLionsuDeviceInfoSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLionsuDeviceInfoSDK.a; path = "/Users/lionsu/Documents/star_sea/github/Lionu-iOS-SDK-Src/build/Debug-iphoneos/libLionsuDeviceInfoSDK.a"; sourceTree = "<absolute>"; };
 		BDBC98492B1830E90083D00A /* LionuDeviceInfoSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LionuDeviceInfoSDK.m; sourceTree = "<group>"; };
 		BDBC984A2B1830E90083D00A /* LionuDeviceInfo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LionuDeviceInfo.bundle; sourceTree = "<group>"; };
 		BDBC984B2B1830E90083D00A /* LionuDeviceInfoSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LionuDeviceInfoSDK.h; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 			);
 			name = LionsuDeviceInfoSDK;
 			productName = HDPDeviceInfoSDK;
-			productReference = BD8004AC2D88214200CC4703 /* libLionsuDeviceInfoSDK.a */;
+			productReference = BD294D922D88E7940010239B /* libLionsuDeviceInfoSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */

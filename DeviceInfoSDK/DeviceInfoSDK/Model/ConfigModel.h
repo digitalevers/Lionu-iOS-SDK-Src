@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL isLog;//默认不打印
 @property (nonatomic,assign) BOOL isMD5;//默认进行md5
 @property (nonatomic,assign) BOOL isAES;//默认进行aes加密
+@property (nonatomic,assign) NSString *base64AesKey;//base64 之后的 aes密钥
 
 @end
 

@@ -135,8 +135,8 @@
     
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:totalParams options:NSJSONWritingPrettyPrinted error:nil];
     if ([LionuDeviceInfoSDK shareInstance].configModel.isAES) {
-        // AES 加密密钥
-        NSString *base64key = @"aIlPkPRHwHpmuJj2qCkbCRw6N4+KRcHYpf2VwU33lvU=";
+        // AES 加密密钥在SDK外部设置
+        NSString *base64key = [LionuDeviceInfoSDK shareInstance].configModel.base64AesKey;
         // 对 JSON 数据进行 AES 加密
         NSData *encryptedData = [self aesEncryptData:jsonData key:base64key mode:kCCOptionECBMode iv:nil];
         NSString *encryptedBase64 = [encryptedData base64EncodedStringWithOptions:0];
